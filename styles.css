@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #24243e,
+      #302b63,
+      #0f0c29
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #24243e, #302b63, #0f0c29);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  .card {
+    margin-top: 50px;
+    box-shadow: 10px 5px 30px white;
+  }
+  p {
+    color: white;
+  }
+  input {
+    color: white;
+    border-bottom: #dedee4 solid;
+    background-color: rgba(8, 2, 21, 5);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container p {
+    position: relative;
+    top: 1em;
+  }
+  
